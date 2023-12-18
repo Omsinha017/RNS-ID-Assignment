@@ -1,6 +1,25 @@
+# Notes API
+
+This is a simple RESTful API for managing notes using Python with the Django framework.
+
 ## Setup
 
-### 1. Install Dependencies
+### 1. Create and Activate Virtual Environment
+
+Before installing the dependencies, it's recommended to create and activate a virtual environment to isolate the project's dependencies. Open a terminal and run the following commands:
+
+```bash
+# Create a virtual environment (use 'venv' or 'virtualenv' depending on your Python version)
+python -m venv venv
+
+# Activate the virtual environment
+# On Windows:
+venv\Scripts\activate
+# On Unix or MacOS:
+source venv/bin/activate
+```
+
+### 2. Install Dependencies
 
 Ensure you have Python and pip installed on your system. Then, install the required dependencies:
 
@@ -8,7 +27,7 @@ Ensure you have Python and pip installed on your system. Then, install the requi
 pip install -r requirements.txt
 ```
 
-### 2. Apply Migrations
+### 3. Apply Migrations
 
 Run the following commands to apply database migrations:
 
@@ -17,7 +36,7 @@ python manage.py makemigrations
 python manage.py migrate
 ```
 
-### 3. Create Superuser (Optional)
+### 4. Create Superuser (Optional)
 
 You can create a superuser to access the Django admin interface:
 
