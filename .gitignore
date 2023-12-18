@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Django
+*.sqlite3
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.log
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# macOS
+.DS_Store
+
+# Editor-specific
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Others
+*.bak
+*.tmp
+*.bak
+*.log
+*.db
+*.sqlite3
+*.sql
+*.sqlite
+.venv
